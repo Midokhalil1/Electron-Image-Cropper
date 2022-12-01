@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom"
+import { useState } from "react"
 
 export default function PhotoCrop() {
+    const [imageSrc, setImageSrc] = useState(null)
+    const [filename, setFilename] = useState(null)
+
+    
     return (
         <>
 
